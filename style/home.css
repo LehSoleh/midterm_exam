@@ -25,6 +25,7 @@ body {
 
 header {
   display: flex;
+  position: sticky;
   width: 100%;
   border: 1px solid red;
   justify-content: space-between;
@@ -35,18 +36,27 @@ header ul {
   list-style: none;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  border: 1px solid black;
 }
 
 header ul li {
-  padding: 0 10px;
+  border: 1px solid red;
+  text-align: center;
+  padding: 0 7%;
+  white-space: nowrap;
+  font-size: x-large;
+  font-weight: bold;
 }
 
 .main-icon {
-  width: 100px;
+  width: 5%;
+  border: 1px solid black;
 }
 
 .discord-button {
   display: flex;
+  width: 20%;
   border: 1px solid black;
   justify-content: center;
   align-items: center;
