@@ -26,11 +26,11 @@ header {
   width: 100%;
   height: 65px;
   z-index: 10;
-  border-bottom: 1px solid rgb(0, 187, 255);
+  border-bottom: 1px solid #1e3256;
   justify-content: space-between;
   align-items: center;
-  background-color: #f6f9ff;
-  color: #111112;
+  background-color: #0c1527;
+  color: #ffffff;
 }
 
 .header-kiri {
@@ -73,17 +73,23 @@ header {
   height: 100%;
   font-size: 15px;
   font-weight: bold;
-  color: #111112;
+  color: #c0d1e8;
   text-decoration: none;
   padding: 0 1.5rem;
   margin: 0 0.25rem;
   transition: all 0.25s ease;
 }
 
+.posisi {
+  border-top: 4px solid #3a84e6;
+  background: linear-gradient(rgba(57, 133, 231, 0.25), transparent);
+  color: #4da2ff;
+}
+
 .navigation-text li a:hover {
   border-top: 4px solid #3a84e6;
-  background: linear-gradient(rgba(57, 133, 231, 0.2), white);
-  color: #2c67b2;
+  background: linear-gradient(rgba(57, 133, 231, 0.25), transparent);
+  color: #4da2ff;
   font-size: 16px;
 }
 
@@ -126,14 +132,14 @@ header {
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-  color: #111112;
+  color: #ffffff;
   padding: 0.5rem 1.25rem;
   transition: all 0.2s ease;
 }
 
 .header-kanan a:hover {
+  color: #4da2ff;
   filter: brightness(1.05);
-
   transform: scale(1.1);
 }
 
@@ -151,7 +157,7 @@ header {
 }
 
 .pemisah-header {
-  border-left: 1.5px solid rgb(189, 189, 189);
+  border-left: 1.5px solid #1e3256;
   height: 50%;
 }
 
