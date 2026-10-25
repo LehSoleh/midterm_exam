@@ -80,12 +80,6 @@ header {
   transition: all 0.25s ease;
 }
 
-.posisi {
-  border-top: 4px solid #3a84e6;
-  background: linear-gradient(rgba(57, 133, 231, 0.2), white);
-  color: #2c67b2;
-}
-
 .navigation-text li a:hover {
   border-top: 4px solid #3a84e6;
   background: linear-gradient(rgba(57, 133, 231, 0.2), white);
